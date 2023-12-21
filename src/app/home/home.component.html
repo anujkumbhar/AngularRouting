@@ -1,0 +1,11 @@
+<p>Home Component!</p>
+{{ parentToChild }}
+<button (click)="clickButton()">click</button>
+<ag-grid-angular
+  [rowData]="rowData"
+  [columnDefs]="createColumnDefs()"
+  [rowSelection]="'multiple'"
+  [animateRows]="true"
+  class="ag-theme-quartz"
+  style="height: 300px; width: 400px"
+></ag-grid-angular>
